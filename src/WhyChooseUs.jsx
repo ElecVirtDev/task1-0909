@@ -6,7 +6,7 @@ export default function WhyChooseUs() {
           {/* 이미지 */}
           <div className="col-lg-6 mb-30 align-self-center">
             <div className="about-img" data-tilt data-tilt-scale="1.05">
-              <img src="./assets/imgs/hero-img-1.png" alt="why choose us" />
+              <img src="/assets/imgs/hero-img-1.png" alt="why choose us" />
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
               <div className="why-lists">
                 <div className="ab-info">
                   <div className="icon">
-                    <img src="./assets/imgs/browser.png" alt="process" />
+                    <img src="/assets/imgs/browser.png" alt="process" />
                   </div>
                   <div className="info">
                     <h4>First Growing Process</h4>
@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
 
                 <div className="ab-info">
                   <div className="icon">
-                    <img src="./assets/imgs/web-browser.png" alt="clean code" />
+                    <img src="/assets/imgs/web-browser.png" alt="clean code" />
                   </div>
                   <div className="info">
                     <h4>Clean Code</h4>
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
 
                 <div className="ab-info">
                   <div className="icon">
-                    <img src="./assets/imgs/file.png" alt="docs" />
+                    <img src="/assets/imgs/file.png" alt="docs" />
                   </div>
                   <div className="info">
                     <h4>Well Documentation</h4>

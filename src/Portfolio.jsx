@@ -34,12 +34,12 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6 col-12 mb-30 mix data">
             <div className="portfolio-item-single">
               <div className="thumbnail">
-                <img src="./assets/imgs/imgs/p-1.png" alt="portfolio" />
+                <img src="/assets/imgs/imgs/p-1.png" alt="portfolio" />
               </div>
               <div className="zoom-icon">
                 <a
                   className="image-popup"
-                  href="./assets/imgs/imgs/p-1.png"
+                  href="/assets/imgs/imgs/p-1.png"
                   data-gallery="portfolio1"
                 >
                   <i className="fa-solid fa-plus"></i>
@@ -58,12 +58,12 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6 col-12 mb-30 mix cloud mobile">
             <div className="portfolio-item-single">
               <div className="thumbnail">
-                <img src="./assets/imgs/imgs/p-2.png" alt="portfolio" />
+                <img src="/assets/imgs/imgs/p-2.png" alt="portfolio" />
               </div>
               <div className="zoom-icon">
                 <a
                   className="image-popup"
-                  href="./assets/imgs/imgs/p-2.png"
+                  href="/assets/imgs/imgs/p-2.png"
                   data-gallery="portfolio1"
                 >
                   <i className="fa-solid fa-plus"></i>

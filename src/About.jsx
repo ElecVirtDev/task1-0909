@@ -5,7 +5,7 @@ export default function About() {
         <div className="row">
           <div className="col-lg-6 mb-30 align-self-center">
             <div className="about-img" data-tilt data-tilt-scale="1.05">
-              <img src="./assets/imgs/about.webp" alt="about" />
+              <img src="/assets/imgs/about.webp" alt="about" />
             </div>
           </div>
           <div className="col-lg-6 mb-30 align-self-center">
