@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/csss/bootstrap-icons.css";
+import "bootstrap/dist/css/bootstrap-icons.css";
 import "./assets/css/font-awesome-pro.css";
 import "./assets/css/animate.css";
 import "./assets/css/glightbox.min.css";
