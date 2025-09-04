@@ -1,170 +1,76 @@
-import { useState } from "react";
-
-function Footer() {
-  const [count, setCount] = useState(0);
-
+export default function Footer() {
   return (
-    <>
-      <div id="footer">
-        {/* <!-- Footer Start --> */}
-        <footer className="site-footer">
-          <div
-            className="footer-bg-dot"
-            style="background-image: url('assets/img/dot-a-white.png')"
-          ></div>
-          <div className="footer-top">
-            <div className="container">
-              <div className="row">
-                {/* <!-- Singel Item --> */}
-                <div className="col-lg-3 col-sm-6 mb-30">
-                  <div className="footer-widgets-item">
-                    <div className="f-logo">
-                      <a href="https://preetheme.com/html/techpro/index.html">
-                        <img src="src/assets/white-logo.png" alt="Logo" />
-                      </a>
-                    </div>
-                    <p className="content">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Esse sit commodi adipisci, asperiores illum excepturi
-                      quidem fuga aliquam fugit laudantium!
-                    </p>
-                    <div className="footer-social">
-                      <div className="footer-social">
-                        <span>
-                          <a href="#">
-                            <i className="fa-brands fa-facebook-f"></i>
-                          </a>
-                        </span>
-                        <span>
-                          <a href="#">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 512 512"
-                            >
-                              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-                            </svg>
-                          </a>
-                        </span>
-                        <span>
-                          <a href="#">
-                            <i className="fa-brands fa-linkedin-in"></i>
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- Singel Item --> */}
-                <div className="col-lg-3 col-sm-6 col-6 mb-30">
-                  <div className="footer-widgets-item">
-                    <h2>Company</h2>
-                    <ul className="menu">
-                      <li>
-                        <a href="#">Company Profile</a>
-                      </li>
-                      <li>
-                        <a href="#">Help Center</a>
-                      </li>
-                      <li>
-                        <a href="#">Services</a>
-                      </li>
-                      <li>
-                        <a href="#">Team Members</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                {/* <!-- Singel Item --> */}
-                <div className="col-lg-3 col-sm-6 col-6 mb-30">
-                  <div className="footer-widgets-item">
-                    <h2>Community</h2>
-                    <ul className="menu">
-                      <li>
-                        <a href="#">Career</a>
-                      </li>
-                      <li>
-                        <a href="#">Leadership</a>
-                      </li>
-                      <li>
-                        <a href="#">Press &amp; Media</a>
-                      </li>
-                      <li>
-                        <a href="#">Projects</a>
-                      </li>
-                      <li>
-                        <a href="#">Marketing Services</a>
-                      </li>
-                      <li>
-                        <a href="#">Challenge Of Project</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                {/* <!-- Singel Item --> */}
-                <div className="col-lg-3 col-sm-6 mb-30">
-                  <div className="footer-widgets-item">
-                    <h2>Contact Info</h2>
-                    <ul className="contact-info">
-                      <li>
-                        <div className="icon">
-                          <i className="fa-sharp fa-regular fa-house"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Address:</h4>
-                          <p>5919 Trussville Crossings Pkwy, Birmingham</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <i className="fa-sharp fa-regular fa-envelope"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Email:</h4>
-                          <p>support@gmail.com</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <i className="fa-regular fa-phone-flip"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Phone:</h4>
-                          <p>+456 123 4455</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+    <footer className="footer section-padding">
+      <div className="container">
+        <div className="row">
+          {/* 푸터 로고 */}
+          <div className="col-lg-4 col-md-6 mb-30">
+            <div className="footer-logo">
+              <img src="./assets/imgs/logo.png" alt="Logo" />
+              <p>
+                TechPro – IT Solutions &amp; Business Services Multipurpose
+                Template.
+              </p>
             </div>
           </div>
-          {/* <!-- Footer Bottom --> */}
-          <div className="footer-bottom pt-30 pb-30">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="copy-text">
-                    <p>
-                      Copyright © 2024 TechPro Theme by{" "}
-                      <a href="#">CodexUnicTheme</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-        {/* <!-- Footer End --> */}
 
-        <div className="scroll-area" style="display: none;">
-          <i className="fa-regular fa-arrow-up"></i>
+          {/* 푸터 링크 */}
+          <div className="col-lg-2 col-md-6 mb-30">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
+                <a href="/portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* 서비스 */}
+          <div className="col-lg-3 col-md-6 mb-30">
+            <h4>Services</h4>
+            <ul>
+              <li>
+                <a href="#">Web Development</a>
+              </li>
+              <li>
+                <a href="#">Cyber Security</a>
+              </li>
+              <li>
+                <a href="#">Data Analysis</a>
+              </li>
+              <li>
+                <a href="#">UI/UX Design</a>
+              </li>
+              <li>
+                <a href="#">SEO Optimization</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* 연락처 */}
+          <div className="col-lg-3 col-md-6 mb-30">
+            <h4>Contact Info</h4>
+            <p>123 Tech Street, Seoul, Korea</p>
+            <p>Email: info@techpro.com</p>
+            <p>Phone: +82 10-1234-5678</p>
+          </div>
         </div>
       </div>
-    </>
+
+      <div className="footer-bottom text-center">
+        <p>© {new Date().getFullYear()} TechPro. All Rights Reserved.</p>
+      </div>
+    </footer>
   );
 }
-
-export default Footer;
