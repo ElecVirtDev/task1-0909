@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    alert("자기소개 페이지에 오신 걸 환영합니다!");
+  }, []);
 
   return (
     <>
