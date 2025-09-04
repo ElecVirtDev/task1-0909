@@ -14,6 +14,7 @@ import "./assets/css/glightbox.min.css";
 import "./assets/css/scrollCue.css";
 import "./assets/css/spacing.css";
 import "./assets/css/responsive.css";
+import "./assets/css/main.css";
 
 // JS 불러오기
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
