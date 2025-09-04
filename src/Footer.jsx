@@ -7,32 +7,32 @@ function Footer() {
     <>
       <div id="footer">
         {/* <!-- Footer Start --> */}
-        <footer class="site-footer">
+        <footer className="site-footer">
           <div
-            class="footer-bg-dot"
+            className="footer-bg-dot"
             style="background-image: url('assets/img/dot-a-white.png')"
           ></div>
-          <div class="footer-top">
-            <div class="container">
-              <div class="row">
+          <div className="footer-top">
+            <div className="container">
+              <div className="row">
                 {/* <!-- Singel Item --> */}
-                <div class="col-lg-3 col-sm-6 mb-30">
-                  <div class="footer-widgets-item">
-                    <div class="f-logo">
+                <div className="col-lg-3 col-sm-6 mb-30">
+                  <div className="footer-widgets-item">
+                    <div className="f-logo">
                       <a href="https://preetheme.com/html/techpro/index.html">
                         <img src="src/assets/white-logo.png" alt="Logo" />
                       </a>
                     </div>
-                    <p class="content">
+                    <p className="content">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Esse sit commodi adipisci, asperiores illum excepturi
                       quidem fuga aliquam fugit laudantium!
                     </p>
-                    <div class="footer-social">
-                      <div class="footer-social">
+                    <div className="footer-social">
+                      <div className="footer-social">
                         <span>
                           <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                           </a>
                         </span>
                         <span>
@@ -47,7 +47,7 @@ function Footer() {
                         </span>
                         <span>
                           <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                           </a>
                         </span>
                       </div>
@@ -55,10 +55,10 @@ function Footer() {
                   </div>
                 </div>
                 {/* <!-- Singel Item --> */}
-                <div class="col-lg-3 col-sm-6 col-6 mb-30">
-                  <div class="footer-widgets-item">
+                <div className="col-lg-3 col-sm-6 col-6 mb-30">
+                  <div className="footer-widgets-item">
                     <h2>Company</h2>
-                    <ul class="menu">
+                    <ul className="menu">
                       <li>
                         <a href="#">Company Profile</a>
                       </li>
@@ -78,10 +78,10 @@ function Footer() {
                   </div>
                 </div>
                 {/* <!-- Singel Item --> */}
-                <div class="col-lg-3 col-sm-6 col-6 mb-30">
-                  <div class="footer-widgets-item">
+                <div className="col-lg-3 col-sm-6 col-6 mb-30">
+                  <div className="footer-widgets-item">
                     <h2>Community</h2>
-                    <ul class="menu">
+                    <ul className="menu">
                       <li>
                         <a href="#">Career</a>
                       </li>
@@ -104,33 +104,33 @@ function Footer() {
                   </div>
                 </div>
                 {/* <!-- Singel Item --> */}
-                <div class="col-lg-3 col-sm-6 mb-30">
-                  <div class="footer-widgets-item">
+                <div className="col-lg-3 col-sm-6 mb-30">
+                  <div className="footer-widgets-item">
                     <h2>Contact Info</h2>
-                    <ul class="contact-info">
+                    <ul className="contact-info">
                       <li>
-                        <div class="icon">
-                          <i class="fa-sharp fa-regular fa-house"></i>
+                        <div className="icon">
+                          <i className="fa-sharp fa-regular fa-house"></i>
                         </div>
-                        <div class="content">
+                        <div className="content">
                           <h4>Address:</h4>
                           <p>5919 Trussville Crossings Pkwy, Birmingham</p>
                         </div>
                       </li>
                       <li>
-                        <div class="icon">
-                          <i class="fa-sharp fa-regular fa-envelope"></i>
+                        <div className="icon">
+                          <i className="fa-sharp fa-regular fa-envelope"></i>
                         </div>
-                        <div class="content">
+                        <div className="content">
                           <h4>Email:</h4>
                           <p>support@gmail.com</p>
                         </div>
                       </li>
                       <li>
-                        <div class="icon">
-                          <i class="fa-regular fa-phone-flip"></i>
+                        <div className="icon">
+                          <i className="fa-regular fa-phone-flip"></i>
                         </div>
-                        <div class="content">
+                        <div className="content">
                           <h4>Phone:</h4>
                           <p>+456 123 4455</p>
                         </div>
@@ -142,11 +142,11 @@ function Footer() {
             </div>
           </div>
           {/* <!-- Footer Bottom --> */}
-          <div class="footer-bottom pt-30 pb-30">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="copy-text">
+          <div className="footer-bottom pt-30 pb-30">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="copy-text">
                     <p>
                       Copyright © 2024 TechPro Theme by{" "}
                       <a href="#">CodexUnicTheme</a>
@@ -159,8 +159,8 @@ function Footer() {
         </footer>
         {/* <!-- Footer End --> */}
 
-        <div class="scroll-area" style="display: none;">
-          <i class="fa-regular fa-arrow-up"></i>
+        <div className="scroll-area" style="display: none;">
+          <i className="fa-regular fa-arrow-up"></i>
         </div>
       </div>
     </>

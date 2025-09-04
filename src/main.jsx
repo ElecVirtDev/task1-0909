@@ -15,18 +15,15 @@ import "./assets/css/spacing.css";
 import "./assets/css/responsive.css";
 
 //JS 불러오기
+import "./components/js/jquery-3.6.3.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "jquery/dist/jquery.min.js";
-import "./components/js/jquery.waypoints.min.js";
-import "./components/js/jquery.counterup.min.js";
-import "./components/js/modernizr.min.js";
 import "./components/js/mixitup.min.js";
 import "./components/js/glightbox.min.js";
+import "./components/js/jquery.waypoints.min.js";
+import "./components/js/jquery.counterup.min.js";
 import "./components/js/vanilla-tilt.min.js";
 import "./components/js/scrollCue.min.js";
-import "./components/js/wow.js";
 import "./components/js/mobile-menu.js";
-import "./components/js/main.js";
 
 //JSX 불러오기
 import Header from "./Header.jsx";
@@ -39,11 +36,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route
         path="/"
         element={
-          <>
+          <React.Fragment>
             <Header />
             <App />
             <Footer />
-          </>
+          </React.Fragment>
         }
       />
     </Routes>

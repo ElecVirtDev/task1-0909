@@ -6,9 +6,9 @@ function Header() {
   return (
     <>
       {/* <!-- Preloader --> */}
-      <div class="preloader" style="display: none;">
-        <div class="loading-container">
-          <div class="loading"></div>
+      <div className="preloader" style="display: none;">
+        <div className="loading-container">
+          <div className="loading"></div>
           <div id="loading-icon">
             <img src="src/favicon.png" alt="TechPro" />
           </div>
@@ -16,14 +16,14 @@ function Header() {
       </div>
 
       {/* <!-- Header --> */}
-      <header class="header sticky-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2 col-md-4 col-5 align-self-center">
-              <div class="logo">
+      <header className="header sticky-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-2 col-md-4 col-5 align-self-center">
+              <div className="logo">
                 <a href="https://preetheme.com/html/techpro/index.html">
                   <img
-                    class="sticky-logo"
+                    className="sticky-logo"
                     src="src/assets/logo.png"
                     alt="Logo"
                   />
@@ -31,27 +31,27 @@ function Header() {
                 </a>
               </div>
             </div>
-            <div class="col-lg-10 col-md-8 col-7">
-              <div class="h-right-button">
-                <a class="button-1" href="#">
+            <div className="col-lg-10 col-md-8 col-7">
+              <div className="h-right-button">
+                <a className="button-1" href="#">
                   Get Consultant
                 </a>
               </div>
 
               {/* <!-- Menu --> */}
-              <div class="canvas_open_full">
-                <div class="canvas_open">
+              <div className="canvas_open_full">
+                <div className="canvas_open">
                   <a href="javascript:void(0)">
-                    <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+                    <i className="fa-sharp fa-solid fa-bars-staggered"></i>
                   </a>
                 </div>
               </div>
-              <div class="menu">
+              <div className="menu">
                 <nav>
                   <ul>
-                    <li class="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <a href="#">Home</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/index.html">
                             Home 01
@@ -114,9 +114,9 @@ function Header() {
                         About Us
                       </a>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <a href="#">Services</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/services.html">
                             Services
@@ -129,9 +129,9 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <a href="#">Portfolio</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/portfolio.html">
                             Portfolio
@@ -149,9 +149,9 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <a href="#">Page</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/team.html">
                             Team
@@ -194,9 +194,9 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <a href="#">Blog</a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/blog.html">
                             Blog
@@ -236,31 +236,31 @@ function Header() {
           </div>
         </div>
       </header>
-      <div class="mobile-menu-area">
+      <div className="mobile-menu-area">
         {/* <!--offcanvas menu area start--> */}
-        <div class="off_canvars_overlay"></div>
-        <div class="offcanvas_menu">
-          <div class="offcanvas_menu_wrapper">
-            <div class="canvas_close">
+        <div className="off_canvars_overlay"></div>
+        <div className="offcanvas_menu">
+          <div className="offcanvas_menu_wrapper">
+            <div className="canvas_close">
               <a href="javascript:void(0)">
-                <i class="bi bi-x-lg"></i>
+                <i className="bi bi-x-lg"></i>
               </a>
             </div>
-            <div class="mobile-logo">
+            <div className="mobile-logo">
               <a href="https://preetheme.com/html/techpro/index.html">
                 <img src="src/assets/logo.png" alt="Logo" />
               </a>
             </div>
-            <div id="menu" class="text-left ">
-              <ul class="offcanvas_main_menu">
-                <li class="menu-item-has-children">
-                  <span class="menu-expand">
-                    <i class="fa fa-angle-down"></i>
+            <div id="menu" className="text-left ">
+              <ul className="offcanvas_main_menu">
+                <li className="menu-item-has-children">
+                  <span className="menu-expand">
+                    <i className="fa fa-angle-down"></i>
                   </span>
                   <a href="https://preetheme.com/html/techpro/index.html">
                     Home
                   </a>
-                  <ul class="sub-menu" style="display: none;">
+                  <ul className="sub-menu" style="display: none;">
                     <li>
                       <a href="https://preetheme.com/html/techpro/index.html">
                         Home 01
@@ -323,14 +323,14 @@ function Header() {
                     About Us
                   </a>
                 </li>
-                <li class="menu-item-has-children">
-                  <span class="menu-expand">
-                    <i class="fa fa-angle-down"></i>
+                <li className="menu-item-has-children">
+                  <span className="menu-expand">
+                    <i className="fa fa-angle-down"></i>
                   </span>
                   <a href="https://preetheme.com/html/techpro/services.html">
                     Services
                   </a>
-                  <ul class="sub-menu" style="display: none;">
+                  <ul className="sub-menu" style="display: none;">
                     <li>
                       <a href="https://preetheme.com/html/techpro/services.html">
                         Services
@@ -343,14 +343,14 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item-has-children">
-                  <span class="menu-expand">
-                    <i class="fa fa-angle-down"></i>
+                <li className="menu-item-has-children">
+                  <span className="menu-expand">
+                    <i className="fa fa-angle-down"></i>
                   </span>
                   <a href="https://preetheme.com/html/techpro/portfolio.html">
                     Portfolio
                   </a>
-                  <ul class="sub-menu" style="display: none;">
+                  <ul className="sub-menu" style="display: none;">
                     <li>
                       <a href="https://preetheme.com/html/techpro/portfolio.html">
                         Portfolio
@@ -368,12 +368,12 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item-has-children">
-                  <span class="menu-expand">
-                    <i class="fa fa-angle-down"></i>
+                <li className="menu-item-has-children">
+                  <span className="menu-expand">
+                    <i className="fa fa-angle-down"></i>
                   </span>
                   <a href="#">Page</a>
-                  <ul class="sub-menu" style="display: none;">
+                  <ul className="sub-menu" style="display: none;">
                     <li>
                       <a href="https://preetheme.com/html/techpro/team.html">
                         Team
@@ -416,14 +416,14 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item-has-children">
-                  <span class="menu-expand">
-                    <i class="fa fa-angle-down"></i>
+                <li className="menu-item-has-children">
+                  <span className="menu-expand">
+                    <i className="fa fa-angle-down"></i>
                   </span>
                   <a href="https://preetheme.com/html/techpro/blog.html">
                     Blog
                   </a>
-                  <ul class="sub-menu" style="display: none;">
+                  <ul className="sub-menu" style="display: none;">
                     <li>
                       <a href="https://preetheme.com/html/techpro/blog.html">
                         Blog
@@ -462,6 +462,10 @@ function Header() {
         </div>
       </div>
       {/* <!-- End Header Section --> */}
+
+      <script src="./components/js/modernizr.min.js"></script>
+      <script src="./components/js/wow.js"></script>
+      <script src="./components/js/main.js"></script>
     </>
   );
 }
