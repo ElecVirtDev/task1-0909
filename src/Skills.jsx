@@ -6,7 +6,7 @@ export default function Skills() {
           {/* 이미지 */}
           <div className="col-lg-6 mb-30 align-self-center">
             <div className="about-img" data-tilt data-tilt-scale="1.05">
-              <img src="/assets/imgs/about-2.png" alt="skills" />
+              <img src="./assets/imgs/about-2.png" alt="skills" />
             </div>
           </div>
 

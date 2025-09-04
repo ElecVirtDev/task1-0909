@@ -35,7 +35,7 @@ export default function Testimonials() {
           </div>
           <div className="t-btm">
             <div className="thum">
-              <img src="/assets/imgs/01.jpg" alt="client" />
+              <img src="./assets/imgs/01.jpg" alt="client" />
             </div>
             <div className="r-name">
               <h4>Jackson Perry</h4>

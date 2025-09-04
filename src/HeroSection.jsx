@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <section
       className="ct-hero-section"
-      style={{ backgroundImage: "url('/assets/imgs/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('./assets/imgs/hero-bg.jpg')" }}
     >
       <div className="container">
         <div className="row">
@@ -31,7 +31,7 @@ export default function HeroSection() {
           </div>
           <div className="col-lg-6 align-self-center">
             <div className="image" data-tilt data-tilt-scale="1.05">
-              <img src="/assets/imgs/rimg01.webp" alt="hero" />
+              <img src="./assets/imgs/rimg01.webp" alt="hero" />
             </div>
           </div>
         </div>
