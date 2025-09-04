@@ -30,12 +30,23 @@ import "./components/js/mobile-menu.js";
 import "./components/js/main.js";
 
 //JSX 불러오기
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import App from "./App.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter basename="/task1-0909/">
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route
+        path="/"
+        element={
+          <>
+            <Header />
+            <App />
+            <Footer />
+          </>
+        }
+      />
     </Routes>
   </BrowserRouter>
 );
