@@ -16,18 +16,18 @@ import "./assets/css/responsive.css";
 //JS 불러오기
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "jquery/dist/jquery.min.js";
-import "./assets/js/jquery.waypoints.min.js";
-import "./assets/js/jquery.counterup.min.js";
-import "./assets/js/modernizr.min.js";
-import "./assets/js/popper.min.js";
-import "./assets/js/mixitup.min.js";
-import "./assets/js/glightbox.min.js";
-import "./assets/js/vanilla-tilt.min.js";
-import "./assets/js/swiper-bundle.js";
-import "./assets/js/scrollCue.min.js";
-import "./assets/js/wow.js";
-import "./assets/js/mobile-menu.js";
-import "./assets/js/main.js";
+import "./components/js/jquery.waypoints.min.js";
+import "./components/js/jquery.counterup.min.js";
+import "./components/js/modernizr.min.js";
+import "./components/js/popper.min.js";
+import "./components/js/mixitup.min.js";
+import "./components/js/glightbox.min.js";
+import "./components/js/vanilla-tilt.min.js";
+import "./components/js/swiper-bundle.js";
+import "./components/js/scrollCue.min.js";
+import "./components/js/wow.js";
+import "./components/js/mobile-menu.js";
+import "./components/js/main.js";
 
 //JSX 불러오기
 import App from "./App.jsx";
