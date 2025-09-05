@@ -1,9 +1,8 @@
-/***************************************************
-==================== JS INDEX ======================
-****************************************************
-01. WOW JS
-02. Preeloader
- ****************************************************/
+import WOW from "wow.js";
+import ScrollCue from "scrollcue";
+import "./popper.min.js";
+import "./swiper-bundle.js";
+
 (function ($) {
   "use strict";
 
@@ -11,13 +10,20 @@
   // 05. Wow Js
   new WOW().init();
 
-  // scrollCue;
-  // scrollCue.init();
-  scrollCue.init({
-    duration: 500,
-    interval: -200,
-    percentage: 0.8,
-  });
+  // scrollCue 동적으로 import
+  import("scrollcue")
+    .then((ScrollCue) => {
+      // scrollCue 초기화
+      const scrollCue = new ScrollCue.default(); // ES6 모듈에서 default로 가져오기
+      scrollCue.init({
+        duration: 500,
+        interval: -200,
+        percentage: 0.8,
+      });
+    })
+    .catch((error) => {
+      console.error("Error loading scrollCue:", error);
+    });
 
   // Scroll Area
   $(document).ready(function () {
@@ -39,13 +45,13 @@
       }
     });
   });
-  // Preeloader
+
+  // Preloader
   var $window = $(window);
   $window.on("load", function () {
     $(".preloader").fadeOut(800);
   });
 
-  // //////////////
   // Video Button Modal
   document.addEventListener("DOMContentLoaded", function () {
     const lightbox = GLightbox({
@@ -58,7 +64,6 @@
     });
   });
 
-  // //////////////
   // Portfolio Modal
   document.addEventListener("DOMContentLoaded", function () {
     const lightbox = GLightbox({

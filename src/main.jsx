@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import WOW from "wow.js";
-import ScrollCue from "scrollcue";
 
 // CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,14 +16,12 @@ import "./assets/css/main.css";
 
 // JS 불러오기
 import "./components/js/jquery-3.6.3.min.js";
-import "./components/js/popper.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./components/js/mixitup.min.js";
 import "./components/js/glightbox.min.js";
 import "./components/js/jquery.waypoints.min.js";
 import "./components/js/jquery.counterup.min.js";
 import "./components/js/vanilla-tilt.min.js";
-import "./components/js/swiper-bundle.js";
 import "./components/js/mobile-menu.js";
 import "./components/js/main.js";
 
@@ -46,6 +42,22 @@ import Footer from "./Footer";
 
 const App = () => {
   useEffect(() => {
+    // WOW.js 초기화
+    const wow = new WOW({
+      live: false,
+    });
+    wow.init();
+
+    // scrollCue 초기화
+    import("scrollcue")
+      .then((ScrollCue) => {
+        const scrollCue = new ScrollCue.default(); // ES6 모듈에서 default로 가져오기
+        console.log("scrollCue has been initialized");
+      })
+      .catch((error) => {
+        console.error("Error loading scrollCue:", error);
+      });
+
     // main.js 파일을 동적으로 import
     import("./components/js/main.js")
       .then(() => {
