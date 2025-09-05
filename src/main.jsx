@@ -9,18 +9,14 @@ import mixitup from "mixitup";
 // CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./assets/css/swiper-bundle.css";
 import "./assets/css/font-awesome-pro.css";
 import "animate.css";
-import "./assets/css/glightbox.min.css";
 import "./assets/css/spacing.css";
 import "./assets/css/responsive.css";
 import "./assets/css/main.css";
 
 // JS 불러오기
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./components/js/mixitup.min.js";
-import "./components/js/glightbox.min.js";
 import "./components/js/jquery.waypoints.min.js";
 import "./components/js/jquery.counterup.min.js";
 import "./components/js/vanilla-tilt.min.js";
