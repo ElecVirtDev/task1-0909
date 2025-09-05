@@ -27,6 +27,7 @@ import "./components/js/scrollCue.min.js";
 import "./components/js/mobile-menu.js";
 
 // JSX 불러오기
+import Preloader from "./Preloader";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 import Services from "./Services";
@@ -49,6 +50,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/"
           element={
             <>
+              <Preloader />
               <Header />
               <HeroSection />
               <Services />
