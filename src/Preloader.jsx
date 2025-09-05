@@ -4,7 +4,7 @@ export default function Preloader() {
       <div className="loading-container">
         <div className="loading"></div>
         <div id="loading-icon">
-          <img src="public/favicon.png" alt="TechPro" />
+          <img src="./favicon.png" alt="TechPro" />
         </div>
       </div>
     </div>
