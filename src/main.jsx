@@ -7,8 +7,7 @@ import Swiper from "swiper/bundle";
 // CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-//import "./assets/css/all.css";
-//import "./assets/css/font-awesome-pro.css";
+import "./assets/css/font-awesome-pro.css";
 import "./assets/css/animate.css";
 import "./assets/css/glightbox.min.css";
 import "./assets/css/scrollCue.css";

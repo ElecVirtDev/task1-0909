@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="footer section-padding">
+    <footer className="site-footer footer section-padding">
       <div className="container">
         <div className="row">
           {/* 푸터 로고 */}
           <div className="col-lg-4 col-md-6 mb-30">
-            <div className="footer-logo">
+            <div className="f-logo">
               <img src="./assets/imgs/logo.png" alt="Logo" />
               <p>
                 TechPro – IT Solutions &amp; Business Services Multipurpose
