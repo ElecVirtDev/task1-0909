@@ -5,12 +5,19 @@ export default function Counter() {
         <div className="ct-cs-full">
           <div className="row">
             <div className="col-lg-3 col-sm-6 mp-0">
-              <div className="counter-item" data-tilt>
-                <div className="icon">
-                  <img
-                    src="/task1-0909/assets/imgs/counter-1.png"
-                    alt="clients"
-                  />
+              <div
+                className="counter-item"
+                data-tilt=""
+                style={{
+                  willChange: "transform",
+                  transform:
+                    "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+                }}
+              >
+                <div>
+                  <div className="icon">
+                    <img src="./assets/imgs/counter-1.png" alt="Image" />
+                  </div>
                 </div>
                 <div className="content">
                   <h2>
@@ -21,26 +28,44 @@ export default function Counter() {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 mp-0">
-              <div className="counter-item" data-tilt>
-                <div className="icon">
-                  <img src="assets/imgs/counter-2.png" alt="projects" />
+              <div
+                className="counter-item"
+                data-tilt=""
+                style={{
+                  willChange: "transform",
+                  transform:
+                    "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+                }}
+              >
+                <div>
+                  <div className="icon">
+                    <img src="./assets/imgs/counter-2.png" alt="Image" />
+                  </div>
                 </div>
                 <div className="content">
                   <h2>
                     <span className="counter">36</span>
                     <small>+</small>
                   </h2>
-                  <p>Finished Projects</p>
+                  <p>Finished projects</p>
                 </div>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 mp-0">
-              <div className="counter-item" data-tilt>
-                <div className="icon">
-                  <img src="assets/imgs/counter-3.png" alt="experts" />
+              <div
+                className="counter-item"
+                data-tilt=""
+                style={{
+                  willChange: "transform",
+                  transform:
+                    "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+                }}
+              >
+                <div>
+                  <div className="icon">
+                    <img src="./assets/imgs/counter-3.png" alt="Image" />
+                  </div>
                 </div>
                 <div className="content">
                   <h2>
@@ -51,11 +76,20 @@ export default function Counter() {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 mp-0">
-              <div className="counter-item" data-tilt>
-                <div className="icon">
-                  <img src="assets/imgs/counter-1.png" alt="posts" />
+              <div
+                className="counter-item"
+                data-tilt=""
+                style={{
+                  willChange: "transform",
+                  transform:
+                    "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+                }}
+              >
+                <div>
+                  <div className="icon">
+                    <img src="./assets/imgs/counter-1.png" alt="Image" />
+                  </div>
                 </div>
                 <div className="content">
                   <h2>

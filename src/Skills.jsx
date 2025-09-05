@@ -3,14 +3,20 @@ export default function Skills() {
     <div className="ct-why-choose-us-section section-padding-2 skts section-bg">
       <div className="container">
         <div className="row">
-          {/* 이미지 */}
           <div className="col-lg-6 mb-30 align-self-center">
-            <div className="about-img" data-tilt data-tilt-scale="1.05">
-              <img src="./assets/imgs/about-2.png" alt="skills" />
+            <div
+              className="about-img"
+              data-tilt=""
+              data-tilt-scale="1.05"
+              style={{
+                willChange: "transform",
+                transform:
+                  "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+              }}
+            >
+              <img src="./assets/imgs/about-2.png" alt="about image" />
             </div>
           </div>
-
-          {/* 텍스트 */}
           <div className="col-lg-6 mb-30 align-self-center order-first">
             <div className="content">
               <div className="ct-section-title text-left">
@@ -27,47 +33,91 @@ export default function Skills() {
                   <p>
                     Cyber Security <b>95%</b>
                   </p>
-                  <div className="progress">
+                  <div
+                    className="progress"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="95"
+                  >
                     <div
-                      className="progress-bar progress-bar-striped"
-                      style={{ width: "95%" }}
+                      className="progress-bar progress-bar-striped wow"
+                      style={{
+                        width: "95%",
+                        visibility: "visible",
+                        animationName: "animate",
+                      }}
                     ></div>
                   </div>
                 </div>
-
                 <div className="single-skill-item">
                   <p>
                     Software Development <b>85%</b>
                   </p>
-                  <div className="progress">
+                  <div
+                    className="progress"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="85"
+                  >
                     <div
-                      className="progress-bar progress-bar-striped"
-                      style={{ width: "85%" }}
+                      className="progress-bar progress-bar-striped bg-danger wow"
+                      style={{
+                        width: "85%",
+                        visibility: "visible",
+                        animationName: "animate",
+                      }}
                     ></div>
                   </div>
                 </div>
-
                 <div className="single-skill-item">
                   <p>
                     Artificial Intelligence <b>80%</b>
                   </p>
-                  <div className="progress">
+                  <div
+                    className="progress"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="80"
+                  >
                     <div
-                      className="progress-bar progress-bar-striped"
-                      style={{ width: "80%" }}
+                      className="progress-bar progress-bar-striped bg-warning wow"
+                      style={{
+                        width: "80%",
+                        visibility: "visible",
+                        animationName: "animate",
+                      }}
                     ></div>
                   </div>
                 </div>
               </div>
 
-              <div className="about-btn mt-35">
-                <a href="/contact" className="button-1">
+              <div
+                className="about-btn mt-35"
+                data-cues="slideInUp"
+                data-disabled="true"
+              >
+                <a
+                  href="https://preetheme.com/html/techpro/contact.html"
+                  className="button-1"
+                  data-cue="slideInUp"
+                  data-show="true"
+                  style={{
+                    animationName: "slideInUp",
+                    animationDuration: "500ms",
+                    animationTimingFunction: "ease",
+                    animationDelay: "0ms",
+                    animationDirection: "normal",
+                    animationFillMode: "both",
+                  }}
+                >
                   Contact Us <i className="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          {/* 텍스트 끝 */}
         </div>
       </div>
     </div>

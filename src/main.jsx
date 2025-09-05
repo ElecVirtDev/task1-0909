@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WOW from "wow.js";
 
 // CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
