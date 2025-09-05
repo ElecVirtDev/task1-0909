@@ -73,7 +73,9 @@ const App = () => {
     const imageLightbox = GLightbox({ selector: ".image-popup" });
 
     // CounterUp 초기화
-    $(".counter").counterUp({ delay: 10, time: 2000 });
+    if ($(".counter").length) {
+      $(".counter").counterUp({ delay: 10, time: 2000 });
+    }
 
     // Swiper 슬라이더 초기화
     new Swiper(".ct-hero-slider-full", {
