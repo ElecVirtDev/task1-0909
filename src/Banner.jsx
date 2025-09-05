@@ -2,7 +2,7 @@ export default function Banner() {
   return (
     <section
       className="banner-section-1"
-      style={{ backgroundImage: "url('/assets/imgs/banner.jpg')" }}
+      style={{ backgroundImage: "url('./assets/imgs/banner.jpg')" }}
     >
       <div className="container">
         <div className="row">

@@ -6,7 +6,7 @@ export default function Footer() {
           {/* 푸터 로고 */}
           <div className="col-lg-4 col-md-6 mb-30">
             <div className="footer-logo">
-              <img src="/assets/imgs/logo.png" alt="Logo" />
+              <img src="./assets/imgs/logo.png" alt="Logo" />
               <p>
                 TechPro – IT Solutions &amp; Business Services Multipurpose
                 Template.

@@ -7,7 +7,7 @@ export default function Counter() {
             <div className="col-lg-3 col-sm-6 mp-0">
               <div className="counter-item" data-tilt>
                 <div className="icon">
-                  <img src="./assets/imgs/counter-1.png" alt="clients" />
+                  <img src="../assets/imgs/counter-1.png" alt="clients" />
                 </div>
                 <div className="content">
                   <h2>
@@ -22,7 +22,7 @@ export default function Counter() {
             <div className="col-lg-3 col-sm-6 mp-0">
               <div className="counter-item" data-tilt>
                 <div className="icon">
-                  <img src="./assets/imgs/counter-2.png" alt="projects" />
+                  <img src="../assets/imgs/counter-2.png" alt="projects" />
                 </div>
                 <div className="content">
                   <h2>
@@ -37,7 +37,7 @@ export default function Counter() {
             <div className="col-lg-3 col-sm-6 mp-0">
               <div className="counter-item" data-tilt>
                 <div className="icon">
-                  <img src="./assets/imgs/counter-3.png" alt="experts" />
+                  <img src="../assets/imgs/counter-3.png" alt="experts" />
                 </div>
                 <div className="content">
                   <h2>
@@ -52,7 +52,7 @@ export default function Counter() {
             <div className="col-lg-3 col-sm-6 mp-0">
               <div className="counter-item" data-tilt>
                 <div className="icon">
-                  <img src="./assets/imgs/counter-4.png" alt="posts" />
+                  <img src="../assets/imgs/counter-4.png" alt="posts" />
                 </div>
                 <div className="content">
                   <h2>

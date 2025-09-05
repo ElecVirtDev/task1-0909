@@ -8,10 +8,10 @@ export default function Header() {
               <a href="/">
                 <img
                   className="sticky-logo"
-                  src="/assets/imgs/logo.png"
+                  src="./assets/imgs/logo.png"
                   alt="Logo"
                 />
-                <img src="/assets/imgs/white-logo.png" alt="white-logo" />
+                <img src="./assets/imgs/white-logo.png" alt="white-logo" />
               </a>
             </div>
           </div>

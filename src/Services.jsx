@@ -19,10 +19,10 @@ export default function Services() {
             <div className="services-card-item">
               <div className="icon">
                 <div className="im hover">
-                  <img src="/assets/imgs/icon1.png" alt="Web Development" />
+                  <img src="./assets/imgs/icon1.png" alt="Web Development" />
                   <img
                     className="img-hover"
-                    src="/assets/imgs/icon1-w.png"
+                    src="./assets/imgs/icon1-w.png"
                     alt="Web Development"
                   />
                 </div>
@@ -45,10 +45,10 @@ export default function Services() {
             <div className="services-card-item">
               <div className="icon">
                 <div className="im hover">
-                  <img src="/assets/imgs/icon2.png" alt="Cyber Security" />
+                  <img src="./assets/imgs/icon2.png" alt="Cyber Security" />
                   <img
                     className="img-hover"
-                    src="/assets/imgs/icon2-w.png"
+                    src="./assets/imgs/icon2-w.png"
                     alt="Cyber Security"
                   />
                 </div>
@@ -71,10 +71,10 @@ export default function Services() {
             <div className="services-card-item">
               <div className="icon">
                 <div className="im hover">
-                  <img src="/assets/imgs/icon3.png" alt="Data Analysis" />
+                  <img src="./assets/imgs/icon3.png" alt="Data Analysis" />
                   <img
                     className="img-hover"
-                    src="/assets/imgs/icon3-w.png"
+                    src="./assets/imgs/icon3-w.png"
                     alt="Data Analysis"
                   />
                 </div>

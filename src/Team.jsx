@@ -18,7 +18,7 @@ export default function Team() {
           <div className="col-lg-3 col-sm-6 mb-30">
             <div className="team-card-single">
               <div className="thumb">
-                <img src="/assets/imgs/team8.png" alt="Leslie Alexander" />
+                <img src="./assets/imgs/team8.png" alt="Leslie Alexander" />
                 <div className="social">
                   <span>
                     <a href="#">

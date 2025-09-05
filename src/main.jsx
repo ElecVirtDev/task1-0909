@@ -28,9 +28,18 @@ import "./components/js/scrollCue.min.js";
 import "./components/js/mobile-menu.js";
 
 // JSX 불러오기
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import App from "./App.jsx";
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+import Services from "./Services";
+import About from "./About";
+import Counter from "./Counter";
+import WhyChooseUs from "./WhyChooseUs";
+import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import Banner from "./Banner";
+import Team from "./Team";
+import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 // React DOM 렌더링
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -41,7 +50,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/"
           element={
             <>
-              <App />
+              <Header />
+              <HeroSection />
+              <Services />
+              <About />
+              <Counter />
+              <WhyChooseUs />
+              <Skills />
+              <Portfolio />
+              <Banner />
+              <Team />
+              <Testimonials />
+              <Footer />
             </>
           }
         />
