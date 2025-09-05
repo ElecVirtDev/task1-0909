@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <div className="video-btn">
                   <a
                     className="video-p-btn"
-                    href="https://www.youtube.com/watch?v=kD_Db3TCno0&t=60s"
+                    href="https://www.youtube.com/watch?v=kD_Db3TCno0&amp;t=60s"
                   >
                     <i className="fas fa-play"></i>
                   </a>
@@ -30,8 +30,17 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="col-lg-6 align-self-center">
-            <div className="image" data-tilt data-tilt-scale="1.05">
-              <img src="./assets/imgs/rimg01.webp" alt="hero" />
+            <div
+              className="image"
+              data-tilt=""
+              data-tilt-scale="1.05"
+              style={{
+                willChange: "transform",
+                transform:
+                  "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
+              }}
+            >
+              <img src="./assets/imgs/rimg01.webp" alt="hero image" />
             </div>
           </div>
         </div>
