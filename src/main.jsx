@@ -18,7 +18,6 @@ import "./assets/css/responsive.css";
 import "./assets/css/main.css";
 
 // JS 불러오기
-import "./components/js/jquery-3.6.3.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./components/js/mixitup.min.js";
 import "./components/js/glightbox.min.js";
