@@ -1,5 +1,5 @@
 import WOW from "wow.js";
-import ScrollCue from "scrollcue";
+import "./scrollCue.min.js";
 import "./popper.min.js";
 import "./swiper-bundle.js";
 
@@ -12,14 +12,14 @@ import "./swiper-bundle.js";
 
   // scrollCue 동적으로 import
   import("scrollcue")
-    .then((ScrollCue) => {
+    .then(({ ScrollCue }) => {
       // scrollCue 초기화
-      const scrollCue = new ScrollCue.default(); // ES6 모듈에서 default로 가져오기
-      scrollCue.init({
+      const scrollCue = new ScrollCue({
         duration: 500,
         interval: -200,
         percentage: 0.8,
       });
+      scrollCue.init();
     })
     .catch((error) => {
       console.error("Error loading scrollCue:", error);

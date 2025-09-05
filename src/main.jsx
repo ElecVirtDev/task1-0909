@@ -23,7 +23,7 @@ import "./components/js/jquery.waypoints.min.js";
 import "./components/js/jquery.counterup.min.js";
 import "./components/js/vanilla-tilt.min.js";
 import "./components/js/mobile-menu.js";
-import "./components/js/main.js";
+//import "./components/js/main.js";
 
 // JSX 불러오기
 import Preloader from "./Preloader";
