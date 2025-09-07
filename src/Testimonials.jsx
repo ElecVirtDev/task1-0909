@@ -39,7 +39,7 @@ export default function Testimonials() {
               className="swiper-wrapper"
               style={{
                 transitionDuration: "0ms",
-                transform: "translate3d(-2212px, 0px, 0px)",
+                transform: "translate3d(0px, 0px, 0px)",
               }}
               id="swiper-wrapper-a2a4c1363ef1077f8"
               aria-live="off"
