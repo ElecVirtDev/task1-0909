@@ -37,10 +37,6 @@ export default function Testimonials() {
           <div className="top-slider-tes swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode">
             <div
               className="swiper-wrapper"
-              style={{
-                transitionDuration: "0ms",
-                transform: "translate3d(0px, 0px, 0px)",
-              }}
               id="swiper-wrapper-a2a4c1363ef1077f8"
               aria-live="off"
             >
