@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WOW from "wow.js";
 import GLightbox from "glightbox";
-import Swiper from "swiper/bundle";
 import mixitup from "mixitup";
 
 // CSS 불러오기
@@ -71,52 +70,6 @@ const App = () => {
     if ($(".counter").length) {
       $(".counter").counterUp({ delay: 10, time: 2000 });
     }
-
-    // Swiper 슬라이더 초기화
-    new Swiper(".ct-hero-slider-full", {
-      slidesPerView: 1,
-      loop: true,
-      speed: 500,
-      autoplay: { delay: 5000 },
-      pagination: { el: ".hero-slider-dot", clickable: true },
-      navigation: { nextEl: ".hero-button-next", prevEl: ".hero-button-prev" },
-    });
-
-    new Swiper(".top-slider-tes", {
-      slidesPerView: "auto",
-      loop: true,
-      autoplay: { delay: 1000 },
-      spaceBetween: 25,
-      freeMode: true,
-      freeModeMomentum: false,
-    });
-
-    new Swiper(".ct-client-logo-slider", {
-      slidesPerView: "auto",
-      loop: true,
-      autoplay: { delay: 3000 },
-      spaceBetween: 25,
-    });
-
-    new Swiper(".portfolio-slider-full", {
-      slidesPerView: 4,
-      loop: true,
-      spaceBetween: 15,
-      autoplay: true,
-      pagination: { el: ".portfolio-slider-dot", clickable: true },
-      navigation: {
-        nextEl: ".portfolio-button-next",
-        prevEl: ".portfolio-button-prev",
-      },
-      breakpoints: {
-        1600: { slidesPerView: 4 },
-        1200: { slidesPerView: 3 },
-        992: { slidesPerView: 2 },
-        768: { slidesPerView: 2 },
-        576: { slidesPerView: 1 },
-        0: { slidesPerView: 1 },
-      },
-    });
 
     // MixItUp 포트폴리오 필터링
     const portfolio = document.querySelector(".p-projects-full");
