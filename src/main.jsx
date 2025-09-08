@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WOW from "wow.js";
-import GLightbox from "glightbox";
 import mixitup from "mixitup";
 
 // CSS 불러오기
@@ -58,13 +57,6 @@ const App = () => {
       e.preventDefault();
       $("html, body").animate({ scrollTop: 0 }, 700);
     });
-
-    // GLightbox 초기화
-    const videoLightbox = GLightbox({
-      selector: ".video-p-btn",
-      autoplayVideos: true,
-    });
-    const imageLightbox = GLightbox({ selector: ".image-popup" });
 
     // CounterUp 초기화
     if ($(".counter").length) {
