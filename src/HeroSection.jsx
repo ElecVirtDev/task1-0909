@@ -9,9 +9,14 @@ export default function HeroSection() {
         <div className="row">
           <div className="col-lg-6 align-self-center">
             <div className="content">
-              <h4>너의 비지니스 어쩌구</h4>
-              <h2>탁월한 IT 서비스 너를 위한 성공</h2>
-              <p>오랜 세월 동안 목말라해옴.</p>
+              <h4>
+                템플릿 사이트에서 소스 긁어다가 Vite 및 React로 이식, 그리고
+                스킨 커스터마이징을.
+              </h4>
+              <h2>
+                과제 제출용이자 포트폴리오로도 내세워야한다고 해서 수정함.
+              </h2>
+              <p>헤더 2개 가지고도 설명이 안 되어서 추가로 설명하는 무언가.</p>
               <div className="h-button vedio">
                 <a className="button-1" href="#">
                   Our Services

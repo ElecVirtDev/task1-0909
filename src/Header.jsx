@@ -6,7 +6,7 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-2 col-md-4 col-5 align-self-center">
               <div className="logo">
-                <a href="https://preetheme.com/html/techpro/index.html">
+                <a href="https://github.com/elecvirtdev">
                   <img
                     className="sticky-logo"
                     src="./assets/imgs/logo.png"
@@ -18,8 +18,8 @@ export default function Header() {
             </div>
             <div className="col-lg-10 col-md-8 col-7">
               <div className="h-right-button">
-                <a className="button-1" href="#">
-                  문의하기
+                <a className="button-1" href="https://github.com/elecvirtdev">
+                  깃헙 가기
                 </a>
               </div>
 

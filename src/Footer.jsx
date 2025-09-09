@@ -120,7 +120,7 @@ export default function Footer() {
                       </div>
                       <div className="content">
                         <h4>전화 번호:</h4>
-                        <p>+82-555-123-4455</p>
+                        <p>+82-555-1234-5678</p>
                       </div>
                     </li>
                   </ul>
