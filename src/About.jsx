@@ -17,7 +17,7 @@ export default function About() {
                   "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
               }}
             >
-              <img src="./assets/imgs/about.webp" alt="about image" />
+              <img src="./assets/imgs/about.png" alt="about image" />
             </div>
           </div>
           <div className="col-lg-6 mb-30 align-self-center">

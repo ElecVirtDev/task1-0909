@@ -44,7 +44,7 @@ export default function HeroSection() {
                   "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)",
               }}
             >
-              <img src="./assets/imgs/rimg01.webp" alt="hero image" />
+              <img src="./assets/imgs/rimg01.png" alt="hero image" />
             </div>
           </div>
         </div>
