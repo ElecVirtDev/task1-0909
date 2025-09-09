@@ -7,15 +7,21 @@ export default function Portfolio() {
       // 지도 생성 옵션
       const container = document.getElementById("map"); // 지도를 넣을 div
       const options = {
-        center: new window.kakao.maps.LatLng(37.5665, 126.978), // 서울 시청의 좌표
+        center: new window.kakao.maps.LatLng(
+          37.78763095519955,
+          126.68820547952224
+        ),
         level: 3, // 줌 레벨
       };
 
       // 지도 객체 생성
       const map = new window.kakao.maps.Map(container, options);
 
-      // 마커를 추가해보기 (서울 시청에 마커 추가)
-      const markerPosition = new window.kakao.maps.LatLng(37.5665, 126.978);
+      // 마커를 추가해보기
+      const markerPosition = new window.kakao.maps.LatLng(
+        37.78763095519955,
+        126.68820547952224
+      );
       const marker = new window.kakao.maps.Marker({
         position: markerPosition,
       });
