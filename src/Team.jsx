@@ -34,7 +34,7 @@ export default function Team() {
           <div className="col-lg-3 col-sm-6 mb-30" data-cue="slideInUp">
             <div className="team-card-single">
               <div className="thumb">
-                <img src="./assets/imgs/team8.png" alt="image" />
+                <img src="./assets/imgs/team8.jpg" alt="image" />
                 <div className="social">
                   <span>
                     <a href="#">
