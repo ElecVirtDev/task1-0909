@@ -47,16 +47,16 @@ export default function Header() {
                           </a>
                         </li>
                         <li>
-                          <a href="#skills">ㅁㄴㅇㄹ</a>
+                          <a href="#skills">보유한 스킬 목록</a>
                         </li>
                         <li>
-                          <a href="#portf">ㅁㄴㅇㄹ</a>
+                          <a href="#portf">선택받은 자들</a>
                         </li>
                         <li>
-                          <a href="#banner">ㅁㄴㅇㄹ</a>
+                          <a href="#banner">우리들도 손님입니다</a>
                         </li>
                         <li>
-                          <a href="#team">ㅁㄴㅇㄹ</a>
+                          <a href="#team">전문가들을 만나보다</a>
                         </li>
                         <li>
                           <a href="#testimo">사람들의 평가</a>

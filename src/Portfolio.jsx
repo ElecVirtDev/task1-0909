@@ -14,7 +14,7 @@ export default function Portfolio() {
                   animationName: "fadeInUp",
                 }}
               >
-                SELECTED PROJECTS
+                선택받은 자들
               </h4>
               <h2
                 className="wow fadeInUp"
@@ -25,7 +25,7 @@ export default function Portfolio() {
                   animationName: "fadeInUp",
                 }}
               >
-                Digital Case <span>Studies.</span>
+                그저 <span>무언가</span>를 강조할 뿐.
               </h2>
             </div>
           </div>
@@ -33,12 +33,12 @@ export default function Portfolio() {
             <div className="portfolio-cate-list-full mb-40 text-right">
               <ul>
                 <li data-filter="all" className="mixitup-control-active">
-                  All
+                  전체
                 </li>
-                <li data-filter=".cloud">Cloud</li>
-                <li data-filter=".data">Data Analaysis</li>
-                <li data-filter=".mobile">Mobile Apps</li>
-                <li data-filter=".technology">Technology</li>
+                <li data-filter=".cloud">구름</li>
+                <li data-filter=".data">분석</li>
+                <li data-filter=".mobile">모바일 앱</li>
+                <li data-filter=".technology">기술</li>
               </ul>
             </div>
           </div>
@@ -101,9 +101,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">효과적인 솔루션</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>데이터 분석을 통해서</strong>
               </div>
             </div>
           </div>
@@ -163,9 +163,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">그 다음으로 효과적인 차선책</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>데이터 분석</strong>
               </div>
             </div>
           </div>
@@ -225,9 +225,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">대단히 효과적인 것</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>디지털 데이터 분석</strong>
               </div>
             </div>
           </div>
@@ -287,9 +287,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">효과적이지 못한 분석</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>시스템 분석</strong>
               </div>
             </div>
           </div>
@@ -349,9 +349,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">대책 세우기</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>매우 효과적임</strong>
               </div>
             </div>
           </div>
@@ -411,9 +411,9 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="#">Effective Solutions</a>
+                  <a href="#">소재 고갈</a>
                 </h2>
-                <strong>Data Analaysis</strong>
+                <strong>매우 부적절함</strong>
               </div>
             </div>
           </div>

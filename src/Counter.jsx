@@ -21,10 +21,10 @@ export default function Counter() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="counter">50</span>
+                    <span className="counter">99</span>
                     <small>+</small>
                   </h2>
-                  <p>Happy Clients</p>
+                  <p>광경하는 사람들의 수</p>
                 </div>
               </div>
             </div>
@@ -45,10 +45,10 @@ export default function Counter() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="counter">36</span>
+                    <span className="counter">32</span>
                     <small>+</small>
                   </h2>
-                  <p>Finished projects</p>
+                  <p>완수한 프로젝트 수</p>
                 </div>
               </div>
             </div>
@@ -69,10 +69,10 @@ export default function Counter() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="counter">21</span>
+                    <span className="counter">50</span>
                     <small>+</small>
                   </h2>
-                  <p>Skilled Experts</p>
+                  <p>갖고 있는 경험의 가짓수</p>
                 </div>
               </div>
             </div>
@@ -93,10 +93,10 @@ export default function Counter() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="counter">201</span>
+                    <span className="counter">999</span>
                     <small>+</small>
                   </h2>
-                  <p>Media Posts</p>
+                  <p>그 동안 먹어왔던 빵의 개수</p>
                 </div>
               </div>
             </div>

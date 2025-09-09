@@ -14,7 +14,7 @@ export default function Team() {
                   animationName: "fadeInUp",
                 }}
               >
-                Meet the Expert People
+                전문가들을 만나보다
               </h4>
               <h2
                 className="wow fadeInUp  animated"
@@ -25,7 +25,7 @@ export default function Team() {
                   animationName: "fadeInUp",
                 }}
               >
-                Our Professional Expert <span>Team Members</span>
+                <span>수준급 전문가들</span>과 함께 하는 프로젝트 실행기
               </h2>
             </div>
           </div>
@@ -64,9 +64,9 @@ export default function Team() {
                 </div>
               </div>
               <div className="content">
-                <p>Founder-CO</p>
+                <p>서열 1위</p>
                 <br />
-                <h4>Leslie Alexander</h4>
+                <h4>최강</h4>
               </div>
             </div>
           </div>
@@ -103,9 +103,9 @@ export default function Team() {
                 </div>
               </div>
               <div className="content">
-                <p>Product Designer</p>
+                <p>서열 1위 보좌</p>
                 <br />
-                <h4>Emma Davis</h4>
+                <h4>박 데이비드</h4>
               </div>
             </div>
           </div>
@@ -142,9 +142,9 @@ export default function Team() {
                 </div>
               </div>
               <div className="content">
-                <p>Solution Developer</p>
+                <p>개발자</p>
                 <br />
-                <h4>Maurice Craig</h4>
+                <h4>김 알렉산더</h4>
               </div>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function Team() {
                 </div>
               </div>
               <div className="content">
-                <p>Designer</p>
+                <p>조직원</p>
                 <br />
-                <h4>Pulak Nondi</h4>
+                <h4>니코</h4>
               </div>
             </div>
           </div>

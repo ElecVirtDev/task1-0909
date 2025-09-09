@@ -23,18 +23,18 @@ export default function Skills() {
           <div className="col-lg-6 mb-30 align-self-center order-first">
             <div className="content">
               <div className="ct-section-title text-left">
-                <h4>SKILLSETS</h4>
-                <h2>We Have the Hottest Skills to Hire For in 2024</h2>
+                <h4>보유한 스킬 목록</h4>
+                <h2>2025년 기준으로 해당 프로그래머가 습득한 스킬 목록</h2>
               </div>
               <p className="text">
-                Over 25 years working in IT services developing software
-                applications and mobile apps for clients all over the world.
+                20여년 동안 배워온 그의 프로그래밍 실력은 대략적으로 다음과
+                같았다.
               </p>
 
               <div className="skill-list">
                 <div className="single-skill-item">
                   <p>
-                    Cyber Security <b>95%</b>
+                    인터넷 지식 활용 능력 <b>95%</b>
                   </p>
                   <div
                     className="progress"
@@ -55,7 +55,7 @@ export default function Skills() {
                 </div>
                 <div className="single-skill-item">
                   <p>
-                    Software Development <b>85%</b>
+                    경험 응용 능력 <b>85%</b>
                   </p>
                   <div
                     className="progress"
@@ -76,7 +76,7 @@ export default function Skills() {
                 </div>
                 <div className="single-skill-item">
                   <p>
-                    Artificial Intelligence <b>80%</b>
+                    지리학적 분석 능력 <b>80%</b>
                   </p>
                   <div
                     className="progress"
@@ -116,7 +116,8 @@ export default function Skills() {
                     animationFillMode: "both",
                   }}
                 >
-                  Contact Us <i className="fa-regular fa-arrow-right"></i>
+                  그 외에 다양한 스킬 목록 살피기{" "}
+                  <i className="fa-regular fa-arrow-right"></i>
                 </a>
               </div>
             </div>

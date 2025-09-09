@@ -21,7 +21,7 @@ export default function Banner() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  We are IT service Agency
+                  우리들도 손님입니다
                 </h4>
                 <h2
                   className="wow fadeInUp"
@@ -32,7 +32,7 @@ export default function Banner() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  We Provide Exclusive Digital Service
+                  우리들은 공부해서 취업할 것입니다
                 </h2>
               </div>
               <a
@@ -45,7 +45,7 @@ export default function Banner() {
                   animationName: "fadeInUp",
                 }}
               >
-                Explore Now <i className="fa-regular fa-arrow-right-long"></i>
+                살펴보기 <i className="fa-regular fa-arrow-right-long"></i>
               </a>
             </div>
           </div>
