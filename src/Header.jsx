@@ -18,8 +18,11 @@ export default function Header() {
             </div>
             <div className="col-lg-10 col-md-8 col-7">
               <div className="h-right-button">
-                <a className="button-1" href="https://github.com/elecvirtdev">
-                  깃헙 가기
+                <a
+                  className="button-1"
+                  href="https://elecvirtdev.github.io/task2-0909/"
+                >
+                  제2의 과제 가보기
                 </a>
               </div>
 
