@@ -1,3 +1,23 @@
+:root {
+  --body-bg: #fff;
+  --white-bg: #fff;
+  --section-bg: #efefff;
+  --primary-bg: linear-gradient(to left, #76009c, #3630ff);
+  --headding-bg: #020842;
+  --body-color: rgb(68, 86, 88);
+  --primary-color: #a51136;
+  --secondary-color: #10393b;
+  --headding-color: #020842;
+  --white-color: #fff;
+  --border-color: #f0f0f0;
+  --ct-border-color: #e2e8f0;
+  --ct-border-color2: #e1e1e1;
+  --ct-border-color3: #e8e8e8;
+  --no-change-color1: #020842;
+  --body-font: "Catamaran", sans-serif;
+  --headding-font: "Jost", sans-serif;
+}
+
 .ct-section-title h4 {
   color: #a51136;
 }

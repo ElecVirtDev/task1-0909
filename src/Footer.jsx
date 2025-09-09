@@ -50,47 +50,44 @@ export default function Footer() {
               </div>
               <div className="col-lg-3 col-sm-6 col-6 mb-30">
                 <div className="footer-widgets-item">
-                  <h2>Company</h2>
+                  <h2>기업에 대해서</h2>
                   <ul className="menu">
                     <li>
-                      <a href="#">Company Profile</a>
+                      <a href="#">연혁</a>
                     </li>
                     <li>
-                      <a href="#">Help Center</a>
+                      <a href="#">고객 센터</a>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <a href="#">지원 서비스</a>
                     </li>
                     <li>
-                      <a href="#">Team Members</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact Us</a>
+                      <a href="#">문의하기</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-3 col-sm-6 col-6 mb-30">
                 <div className="footer-widgets-item">
-                  <h2>Community</h2>
+                  <h2>커뮤니티</h2>
                   <ul className="menu">
                     <li>
-                      <a href="#">Career</a>
+                      <a href="#">커리어</a>
                     </li>
                     <li>
-                      <a href="#">Leadership</a>
+                      <a href="#">리더십</a>
                     </li>
                     <li>
-                      <a href="#">Press &amp; Media</a>
+                      <a href="#">보도 자료</a>
                     </li>
                     <li>
-                      <a href="#">Projects</a>
+                      <a href="#">프로젝트</a>
                     </li>
                     <li>
-                      <a href="#">Marketing Services</a>
+                      <a href="#">마케팅 서비스</a>
                     </li>
                     <li>
-                      <a href="#">Challenge Of Project</a>
+                      <a href="#">프로젝트에 대한 투쟁</a>
                     </li>
                   </ul>
                 </div>
@@ -141,7 +138,7 @@ export default function Footer() {
                     Copyright © 2024 TechPro Theme by{" "}
                     <a href="#">CodexUnicTheme</a>
                     <br />
-                    LIMITED USE, DO NOT SHARE
+                    LIMITED USE, DO NOT SHARE without PERMISSION
                   </p>
                 </div>
               </div>
