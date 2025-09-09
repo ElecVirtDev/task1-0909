@@ -457,23 +457,24 @@ export default function Testimonials() {
                 <div className="content">
                   <div className="date">
                     <i className="fa-light fa-calendar-days"></i>{" "}
-                    <span>14 Aug 2024</span>
+                    <span>2025년 9월 9일</span>
                   </div>
                   <div className="title">
                     <h3>
                       <a href="https://preetheme.com/html/techpro/single.html">
-                        How To Build The Ultimate Tech Stack For Growth
+                        월 평균 50억 버는 방법
                       </a>
                     </h3>
                   </div>
                   <div className="user-s">
                     <ul>
                       <li>
-                        <i className="fa-light fa-user"></i> <span>Admin</span>
+                        <i className="fa-light fa-user"></i>{" "}
+                        <span>한탕주의</span>
                       </li>
                       <li>
                         <i className="fa-light fa-comment"></i>{" "}
-                        <span>02 Comments</span>
+                        <span>99개의 댓글이 달렸습니다</span>
                       </li>
                     </ul>
                   </div>
@@ -490,23 +491,24 @@ export default function Testimonials() {
                 <div className="content">
                   <div className="date">
                     <i className="fa-light fa-calendar-days"></i>{" "}
-                    <span>14 Aug 2024</span>
+                    <span>2025년 8월 18일</span>
                   </div>
                   <div className="title">
                     <h3>
                       <a href="https://preetheme.com/html/techpro/single.html">
-                        How To Build And Automate A Referral Program
+                        새로 들어온 하드 디스크 드라이브에 대한 리뷰
                       </a>
                     </h3>
                   </div>
                   <div className="user-s">
                     <ul>
                       <li>
-                        <i className="fa-light fa-user"></i> <span>Admin</span>
+                        <i className="fa-light fa-user"></i>{" "}
+                        <span>어두미니</span>
                       </li>
                       <li>
                         <i className="fa-light fa-comment"></i>{" "}
-                        <span>02 Comments</span>
+                        <span>5개의 댓글이 달렸습니다</span>
                       </li>
                     </ul>
                   </div>
@@ -523,23 +525,23 @@ export default function Testimonials() {
                 <div className="content">
                   <div className="date">
                     <i className="fa-light fa-calendar-days"></i>{" "}
-                    <span>14 Aug 2024</span>
+                    <span>2024년 1월 5일</span>
                   </div>
                   <div className="title">
                     <h3>
                       <a href="https://preetheme.com/html/techpro/single.html">
-                        Data Analysis and the Big Impact on Industry
+                        처음 방문하시는 분들을 위해서
                       </a>
                     </h3>
                   </div>
                   <div className="user-s">
                     <ul>
                       <li>
-                        <i className="fa-light fa-user"></i> <span>Admin</span>
+                        <i className="fa-light fa-user"></i> <span>관리자</span>
                       </li>
                       <li>
                         <i className="fa-light fa-comment"></i>{" "}
-                        <span>02 Comments</span>
+                        <span>0개의 댓글이 달렸습니다</span>
                       </li>
                     </ul>
                   </div>
