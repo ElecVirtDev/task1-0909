@@ -126,7 +126,7 @@ export default function Portfolio() {
                   animationFillMode: "both",
                 }}
               >
-                <img src="./assets/imgs/p-2.png" alt="portfolio" />
+                <img src="./assets/imgs/p-2.jpg" alt="portfolio" />
               </div>
               <div
                 className="zoom-icon"
@@ -144,7 +144,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="./assets/imgs/p-2.png"
+                  href="./assets/imgs/p-2.jpg"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -188,7 +188,7 @@ export default function Portfolio() {
                   animationFillMode: "both",
                 }}
               >
-                <img src="./assets/imgs/p-3.png" alt="portfolio" />
+                <img src="./assets/imgs/p-3.jpg" alt="portfolio" />
               </div>
               <div
                 className="zoom-icon"
@@ -206,7 +206,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="./assets/imgs/p-3.png"
+                  href="./assets/imgs/p-3.jpg"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -250,7 +250,7 @@ export default function Portfolio() {
                   animationFillMode: "both",
                 }}
               >
-                <img src="./assets/imgs/p-4.png" alt="portfolio" />
+                <img src="./assets/imgs/p-4.jpg" alt="portfolio" />
               </div>
               <div
                 className="zoom-icon"
@@ -268,7 +268,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="./assets/imgs/p-4.png"
+                  href="./assets/imgs/p-4.jpg"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -312,7 +312,7 @@ export default function Portfolio() {
                   animationFillMode: "both",
                 }}
               >
-                <img src="./assets/imgs/p-5.png" alt="portfolio" />
+                <img src="./assets/imgs/p-5.jpg" alt="portfolio" />
               </div>
               <div
                 className="zoom-icon"
@@ -330,7 +330,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="./assets/imgs/p-5.png"
+                  href="./assets/imgs/p-5.jpg"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -374,7 +374,7 @@ export default function Portfolio() {
                   animationFillMode: "both",
                 }}
               >
-                <img src="./assets/imgs/p-6.png" alt="portfolio" />
+                <img src="./assets/imgs/p-6.jpg" alt="portfolio" />
               </div>
               <div
                 className="zoom-icon"
@@ -392,7 +392,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="./assets/imgs/p-6.png"
+                  href="./assets/imgs/p-6.jpg"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
