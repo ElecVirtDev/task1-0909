@@ -26,13 +26,6 @@ export default function Header() {
                 </a>
               </div>
 
-              <div className="canvas_open_full">
-                <div className="canvas_open">
-                  <a href="javascript:void(0)">
-                    <i className="fa-sharp fa-solid fa-bars-staggered"></i>
-                  </a>
-                </div>
-              </div>
               <div className="menu">
                 <nav>
                   <ul>
