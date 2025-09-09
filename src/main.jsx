@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WOW from "wow.js";
 import mixitup from "mixitup";
+import "@fontsource/nanum-gothic";
 
 // CSS 불러오기
 import "bootstrap/dist/css/bootstrap.min.css";
