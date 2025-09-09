@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <header className="header sticky-header">
+      <header id="header" className="header sticky-header">
         <div className="container">
           <div className="row">
             <div className="col-lg-2 col-md-4 col-5 align-self-center">

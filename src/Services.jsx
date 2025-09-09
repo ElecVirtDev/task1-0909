@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section className="section-padding-2">
+    <section id="services" className="section-padding-2">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 offset-lg-3 col-md-10 offset-md-1 mb-30">

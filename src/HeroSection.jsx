@@ -1,6 +1,7 @@
 export default function HeroSection() {
   return (
     <section
+      id="herosec"
       className="ct-hero-section"
       style={{ backgroundImage: "url('./assets/imgs/hero-bg.jpg')" }}
     >

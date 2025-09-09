@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-    <div className="portfolio-cate-section section-padding-2">
+    <div id="portf" className="portfolio-cate-section section-padding-2">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mb-30 align-self-center">

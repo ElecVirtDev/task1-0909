@@ -22,7 +22,7 @@ const AutoSlideSwiper = () => {
 export default function Testimonials() {
   return (
     <>
-      <section className="section-padding section-bg">
+      <section id="testimo" className="section-padding section-bg">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3 col-md-10 offset-md-1 mb-30">

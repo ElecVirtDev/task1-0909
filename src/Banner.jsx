@@ -1,6 +1,7 @@
 export default function Banner() {
   return (
     <section
+      id="banner"
       className="banner-section-1"
       style={{
         backgroundImage: "url('./assets/imgs/banner.jpg')",

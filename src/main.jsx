@@ -12,6 +12,7 @@ import "animate.css";
 import "./assets/css/spacing.css";
 import "./assets/css/responsive.css";
 import "./assets/css/main.css";
+import "./assets/css/custom.css";
 
 // JS 불러오기
 import "bootstrap/dist/js/bootstrap.bundle.min.js";

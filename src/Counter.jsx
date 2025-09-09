@@ -1,6 +1,6 @@
 export default function Counter() {
   return (
-    <div className="ct-counter-section">
+    <div id="counter" className="ct-counter-section">
       <div className="container">
         <div className="ct-cs-full">
           <div className="row">

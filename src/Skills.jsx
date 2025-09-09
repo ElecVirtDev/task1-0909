@@ -1,6 +1,9 @@
 export default function Skills() {
   return (
-    <div className="ct-why-choose-us-section section-padding-2 skts section-bg">
+    <div
+      id="skills"
+      className="ct-why-choose-us-section section-padding-2 skts section-bg"
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mb-30 align-self-center">
