@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <div className="ct-about-us-section section-padding-2 section-bg counter-bottom-padding">
+    <div
+      id="about"
+      className="ct-about-us-section section-padding-2 section-bg counter-bottom-padding"
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mb-30 align-self-center">

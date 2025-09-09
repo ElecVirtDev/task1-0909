@@ -392,7 +392,7 @@ export default function Testimonials() {
                         animationName: "none",
                       }}
                     >
-                      Preparing For Your Business Success
+                      당신의 취업 성공을 준비해봅시다!!
                     </h2>
                   </div>
                   <div className="col-md-4 col-lg-6 text-center align-self-center">
@@ -406,7 +406,7 @@ export default function Testimonials() {
                         animationName: "none",
                       }}
                     >
-                      Get Started <i className="bi bi-arrow-right"></i>
+                      시작하기 <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -430,7 +430,7 @@ export default function Testimonials() {
                     animationName: "none",
                   }}
                 >
-                  Latest Blog
+                  블로그 최근 게시글
                 </h4>
                 <h2
                   className="wow fadeInUp animated"
@@ -441,7 +441,7 @@ export default function Testimonials() {
                     animationName: "none",
                   }}
                 >
-                  Latest News &amp; Updates
+                  최근 소식들
                 </h2>
               </div>
             </div>

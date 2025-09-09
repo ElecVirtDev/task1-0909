@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="site-footer">
+      <footer id="footer" className="site-footer">
         <div
           className="footer-bg-dot"
           style={{
@@ -19,9 +19,8 @@ export default function Footer() {
                     </a>
                   </div>
                   <p className="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Esse sit commodi adipisci, asperiores illum excepturi quidem
-                    fuga aliquam fugit laudantium!
+                    딱히 이렇다 할 설명은 없습니다! 설명문에 너무 깊은 의미를
+                    두려고 하지 마십시오!!
                   </p>
                   <div className="footer-social">
                     <div className="footer-social">
@@ -98,15 +97,15 @@ export default function Footer() {
               </div>
               <div className="col-lg-3 col-sm-6 mb-30">
                 <div className="footer-widgets-item">
-                  <h2>Contact Info</h2>
+                  <h2>연락처</h2>
                   <ul className="contact-info">
                     <li>
                       <div className="icon">
                         <i className="fa-sharp fa-regular fa-house"></i>
                       </div>
                       <div className="content">
-                        <h4>Address:</h4>
-                        <p>5919 Trussville Crossings Pkwy, Birmingham</p>
+                        <h4>주소:</h4>
+                        <p>대구광역시 동구 신암동 동대구역 근처</p>
                       </div>
                     </li>
                     <li>
@@ -114,7 +113,7 @@ export default function Footer() {
                         <i className="fa-sharp fa-regular fa-envelope"></i>
                       </div>
                       <div className="content">
-                        <h4>Email:</h4>
+                        <h4>이메일 주소:</h4>
                         <p>support@gmail.com</p>
                       </div>
                     </li>
@@ -123,8 +122,8 @@ export default function Footer() {
                         <i className="fa-regular fa-phone-flip"></i>
                       </div>
                       <div className="content">
-                        <h4>Phone:</h4>
-                        <p>+456 123 4455</p>
+                        <h4>전화 번호:</h4>
+                        <p>+82-555-123-4455</p>
                       </div>
                     </li>
                   </ul>
@@ -141,6 +140,8 @@ export default function Footer() {
                   <p>
                     Copyright © 2024 TechPro Theme by{" "}
                     <a href="#">CodexUnicTheme</a>
+                    <br />
+                    LIMITED USE, DO NOT SHARE
                   </p>
                 </div>
               </div>
