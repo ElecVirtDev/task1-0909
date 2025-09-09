@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="col-lg-3 col-sm-6 mb-30">
                 <div className="footer-widgets-item">
                   <div className="f-logo">
-                    <a href="https://preetheme.com/html/techpro/index.html">
+                    <a href="#">
                       <img src="./assets/imgs/white-logo.png" alt="Logo" />
                     </a>
                   </div>

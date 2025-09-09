@@ -416,7 +416,7 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <section className="section-padding-2">
+      <section id="blog" className="section-padding-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3 col-md-10 offset-md-1 mb-30">
@@ -450,7 +450,7 @@ export default function Testimonials() {
             <div className="col-lg-4 col-md-6 mb-30" data-cue="slideInUp">
               <div className="blog-single-item">
                 <div className="thumbnail">
-                  <a href="https://preetheme.com/html/techpro/single.html">
+                  <a href="#">
                     <img src="./assets/imgs/blog1.jpg" alt="blog" />
                   </a>
                 </div>
@@ -461,9 +461,7 @@ export default function Testimonials() {
                   </div>
                   <div className="title">
                     <h3>
-                      <a href="https://preetheme.com/html/techpro/single.html">
-                        월 평균 50억 버는 방법
-                      </a>
+                      <a href="#">월 평균 50억 버는 방법</a>
                     </h3>
                   </div>
                   <div className="user-s">
@@ -484,7 +482,7 @@ export default function Testimonials() {
             <div className="col-lg-4 col-md-6 mb-30" data-cue="slideInUp">
               <div className="blog-single-item">
                 <div className="thumbnail">
-                  <a href="https://preetheme.com/html/techpro/single.html">
+                  <a href="#">
                     <img src="./assets/imgs/blog3.jpg" alt="blog" />
                   </a>
                 </div>
@@ -495,7 +493,7 @@ export default function Testimonials() {
                   </div>
                   <div className="title">
                     <h3>
-                      <a href="https://preetheme.com/html/techpro/single.html">
+                      <a href="#">
                         새로 들어온 하드 디스크 드라이브에 대한 리뷰
                       </a>
                     </h3>
@@ -518,7 +516,7 @@ export default function Testimonials() {
             <div className="col-lg-4 col-md-6 mb-30" data-cue="slideInUp">
               <div className="blog-single-item">
                 <div className="thumbnail">
-                  <a href="https://preetheme.com/html/techpro/single.html">
+                  <a href="#">
                     <img src="./assets/imgs/blog6.jpg" alt="blog" />
                   </a>
                 </div>
@@ -529,9 +527,7 @@ export default function Testimonials() {
                   </div>
                   <div className="title">
                     <h3>
-                      <a href="https://preetheme.com/html/techpro/single.html">
-                        처음 방문하시는 분들을 위해서
-                      </a>
+                      <a href="#">처음 방문하시는 분들을 위해서</a>
                     </h3>
                   </div>
                   <div className="user-s">

@@ -18,8 +18,8 @@ export default function HeroSection() {
               </h2>
               <p>헤더 2개 가지고도 설명이 안 되어서 추가로 설명하는 무언가.</p>
               <div className="h-button vedio">
-                <a className="button-1" href="#">
-                  Our Services
+                <a className="button-1" href="#services">
+                  서비스 살펴보기
                 </a>
                 <div className="video-btn">
                   <a

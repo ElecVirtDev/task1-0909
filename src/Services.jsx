@@ -68,7 +68,7 @@ export default function Services() {
                   공장을, 숨는 걷다. 컴퓨터를 사냥은 노력으로 여자의, 문화인으로
                   안 것 사무치다, 보낸다.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   자세히 살펴보기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -108,7 +108,7 @@ export default function Services() {
                   이름을 온다. 잡다가 절실하다 충분하던 나뭇결의 수 금쪽같다
                   불릴 함양된 중 산다. 이용하니 작용도 노동이 적어 있어.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   상세히 살펴보기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -151,7 +151,7 @@ export default function Services() {
                   그 보일 되어 되다. 허풍은 못 집은, 14시 3875만 것, 방일을
                   문지기에서 분위기다 보완되야.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   자세히 살펴보지 않기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -192,7 +192,7 @@ export default function Services() {
                   잇는다 하고 통제한 듣은 닫힌 뺨이 열다. 솜씨에 두 들려옴 9명
                   거창하면 공판의 띠다.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   좀 더 읽어보기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -232,7 +232,7 @@ export default function Services() {
                   조직하다. 주민에 싶은 옷감에 원추리를 저수지와 오려 모른
                   치유하자, 편견 되는지.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   샅샅히 살펴보기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -271,7 +271,7 @@ export default function Services() {
                   수 거 본다 합니다. 있군 북동쪽을 살펴본다 번지면 연필이요
                   쉽으니까 오고 농업도, 쓰다.
                 </p>
-                <a href="https://preetheme.com/html/techpro/services-details.html">
+                <a href="#">
                   꼼꼼히 살펴보기 <i className="bi bi-arrow-right"></i>
                 </a>
               </div>

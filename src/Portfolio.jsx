@@ -82,7 +82,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-1.png"
+                  href="./assets/imgs/p-1.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -101,9 +101,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>
@@ -146,7 +144,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-2.png"
+                  href="./assets/imgs/p-2.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -165,9 +163,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>
@@ -210,7 +206,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-3.png"
+                  href="./assets/imgs/p-3.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -229,9 +225,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>
@@ -274,7 +268,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-4.png"
+                  href="./assets/imgs/p-4.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -293,9 +287,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>
@@ -338,7 +330,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-5.png"
+                  href="./assets/imgs/p-5.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -357,9 +349,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>
@@ -402,7 +392,7 @@ export default function Portfolio() {
                 <a
                   className="image-popup"
                   data-gallery="portfolio1"
-                  href="https://preetheme.com/html/techpro/assets/img/portfolio/p-6.png"
+                  href="./assets/imgs/p-6.png"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -421,9 +411,7 @@ export default function Portfolio() {
                 }}
               >
                 <h2>
-                  <a href="https://preetheme.com/html/techpro/portfolio-details.html">
-                    Effective Solutions
-                  </a>
+                  <a href="#">Effective Solutions</a>
                 </h2>
                 <strong>Data Analaysis</strong>
               </div>

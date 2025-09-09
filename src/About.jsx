@@ -101,7 +101,7 @@ export default function About() {
                 data-disabled="true"
               >
                 <a
-                  href="https://preetheme.com/html/techpro/about.html"
+                  href="#"
                   className="button-1"
                   data-cue="slideInUp"
                   data-show="true"

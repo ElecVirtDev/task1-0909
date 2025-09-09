@@ -103,7 +103,7 @@ export default function Skills() {
                 data-disabled="true"
               >
                 <a
-                  href="https://preetheme.com/html/techpro/contact.html"
+                  href="#"
                   className="button-1"
                   data-cue="slideInUp"
                   data-show="true"
