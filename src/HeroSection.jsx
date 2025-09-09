@@ -8,12 +8,9 @@ export default function HeroSection() {
         <div className="row">
           <div className="col-lg-6 align-self-center">
             <div className="content">
-              <h4>EMPOWER YOUR BUSINESS</h4>
-              <h2>Excellent IT Services For Your Success</h2>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-              </p>
+              <h4>너의 비지니스 어쩌구</h4>
+              <h2>탁월한 IT 서비스 너를 위한 성공</h2>
+              <p>오랜 세월 동안 목말라해옴.</p>
               <div className="h-button vedio">
                 <a className="button-1" href="#">
                   Our Services

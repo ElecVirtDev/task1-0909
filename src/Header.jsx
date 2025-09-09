@@ -19,7 +19,7 @@ export default function Header() {
             <div className="col-lg-10 col-md-8 col-7">
               <div className="h-right-button">
                 <a className="button-1" href="#">
-                  Get Consultant
+                  문의하기
                 </a>
               </div>
 
@@ -34,7 +34,7 @@ export default function Header() {
                 <nav>
                   <ul>
                     <li className="menu-item-has-children">
-                      <a href="#">Home</a>
+                      <a href="#">홈</a>
                       <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/index.html">
@@ -103,7 +103,7 @@ export default function Header() {
                       <ul className="sub-menu">
                         <li>
                           <a href="https://preetheme.com/html/techpro/services.html">
-                            Services
+                            서비스
                           </a>
                         </li>
                         <li>
